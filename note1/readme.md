@@ -268,12 +268,59 @@ Height / Displacement / Depth（高度贴图，黑白）
 
 
 
+# 材质转化为参数
+![alt text](image-24.png)  
+使用人可以直接调节这些参数  
+<img src="image-25.png" width="50%">
 
 
 
 
 
+# 怎么制作玻璃
+https://pan.baidu.com/pfile/video?path=/%E5%A2%A8%E5%8C%96ue5%E6%95%99%E7%A8%8Bue4--S1/UE5%E8%99%9A%E5%B9%BB%E5%BC%95%E6%93%8E%E5%A2%A8hua/ue5+ue4/Ue5%E6%95%99%E7%A8%8B%E5%A4%A7%E5%85%A8/UE5%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/01+%E8%99%9A%E5%B9%BB%E5%BC%95%E6%93%8EUE5+UE4%E5%85%A8%E9%9D%A2%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%AD%E6%96%87%E8%AF%AD%E9%9F%B3%E6%95%99%E7%A8%8B%EF%BC%89/06%E5%88%9B%E5%BB%BA%E7%8E%BB%E7%92%83%E6%9D%90%E8%B4%A8%E8%B0%83%E6%95%B4%E5%8F%82%E6%95%B0_%E9%AB%98%E6%B8%85+1080P.mp4
 
+
+# 材质网站
+https://www.fab.com/
+
+
+
+# 玻璃材质
+<img src="image-26.png" width="50%">  
+<img src="image-27.png" width="50%">
+
+
+# 选中同一种类的模型
+shift + e
+
+
+# 光照贴图分辨率
+简单理解
+想象你要把光照信息"画"在物体表面，光照贴图分辨率决定了这张"画布"有多精细：
+
+- 数值越高 = 贴图越精细 = 光影细节越丰富，但占用内存和烘焙时间更多  
+- 数值越低 = 贴图越粗糙 = 光影模糊，但性能更好
+
+# 复制粘贴也是直接选中右键即可
+
+
+
+# 对齐到地面
+![alt text](image-28.png)
+
+
+# 导航网格体积
+核心作用
+定义AI可以走动的区域，UE5会在这个区域内自动生成寻路网格。
+！UE5已经内置了寻路算法，你只需要：
+最简单的AI移动（3步）
+1. 放置导航网格
+Nav Mesh Bounds Volume → 覆盖地图 → 按P键看绿色网格
+2. 给敌人添加AI控制器
+敌人Blueprint → Class Settings → 
+AI Controller Class → 选择 AIController
+3. 调用移动函数
 
 
 
