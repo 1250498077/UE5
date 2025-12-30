@@ -33,3 +33,15 @@
 ![alt text](image-7.png)
 
 
+
+
+# 关掉眼部适应
+![alt text](image-8.png)  
+
+项目设置自动曝这里去掉
+![alt text](image-9.png)
+
+
+
+
+

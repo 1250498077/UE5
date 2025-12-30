@@ -268,10 +268,10 @@ Height / Displacement / Depth（高度贴图，黑白）
 
 
 
-# 材质转化为参数
+# 材质转化为参数  
 ![alt text](image-24.png)  
 使用人可以直接调节这些参数  
-<img src="image-25.png" width="50%">
+<img src="image-25.png" width="50%">  
 
 
 
@@ -321,8 +321,6 @@ Nav Mesh Bounds Volume → 覆盖地图 → 按P键看绿色网格
 敌人Blueprint → Class Settings → 
 AI Controller Class → 选择 AIController
 3. 调用移动函数
-
-
 
 
 
